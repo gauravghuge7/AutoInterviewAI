@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.manifest
+
+# PyInstaller
+#  Usually these files are written by a python script; ignoring them is
+#  unlikely to cause any problems due to parity issues. Often you'll want to
+#  include a binary built using PyInstaller, so don't add it to the list of
+#  ignored files.
+# /dist/
+# /build/
+# /*.spec
+
+# IDEs and editors
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store

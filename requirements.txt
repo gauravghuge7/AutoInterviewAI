@@ -1,0 +1,39 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# Core pipeline
+langgraph==0.0.31
+openai>=1.0.0
+
+# Whisper ASR (install from GitHub)
+openai-whisper @ git+https://github.com/openai/whisper.git
+
+
+torch>=2.0.0,<3.0.0
+torchaudio>=2.0.0,<3.0.0
+
+# PyAudio for mic capture
+pyaudio
+
+# TTS (Coqui)
+TTS
+
+# Audio processing
+numpy
+soundfile
+
+# PDF resume parsing
+PyPDF2
+
+# Qdrant client
+qdrant-client
+
+# Neo4j client
+neo4j
+
+# Requests for Qdrant HTTP
+requests
+
+sounddevice
